@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#italics {
+  font-style: italic;
+}
+
+.headings {
+  color: red;
+}
+
+.example-line {
+  color: #0073e6;
+}
+
+.example-heading {
+  color: #0073e6;
+  text-transform: uppercase;
+}
+
+.example-box {
+  background-color: #f4f4f4;
+  border-left: 4px solid #0073e6;
+  padding: 10px;
+  margin: -5px 0 10px 0;
+}
+
+/* Lists */
+.ul-example-box,
+.ol-example-box {
+  display: flex;
+  column-gap: 120px;
+}
+
+pre#ul-code-example > h4,
+pre#ol-code-example > h4 {
+  margin: 0;
+}
+
+.anchor-a {
+  color: #ff0000;
+}
+
+.anchor-href {
+  color: #a52a2a;
+}
+
+.anchor-actual-link {
+  color: #008000;
+}
+
+.anchor-link-text-user-sees {
+  color: #0000ff;
+}
